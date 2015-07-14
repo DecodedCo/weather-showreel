@@ -41,7 +41,7 @@ function getHistoricalTemp(city,id){
 		// console.log("Data",Data)
 		if (city == cities[cities.length-1]){
 			//draw the visualisation
-			setTimeout(2500,drawViz(Data)); //cheat way to ensure everything has laoded
+			setTimeout(2000,drawViz(Data)); //cheat way to ensure everything has laoded
 		}
 	});
 }

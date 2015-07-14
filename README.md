@@ -7,9 +7,11 @@ This library will allow you to visualise historical city weather temperatures, u
 
 ### Instructions 
 
-* Copy the html code in sublime text
-* From your browser go to: localhost:8000
+1. Copy the html code in sublime text and save in the sites folder. Set the file name to index.html
+2. Copy the js code in sublime text and save again in the sites folder. Set the file name to script.html
+3. From your browser go to: localhost:8000
+
  (a webserver has already been set up for the visualisation to display properly)
-* That's it! 
+4. That's it! 
 
 If you would like to change the cities that are being displayed, edit line 37 in the html code.

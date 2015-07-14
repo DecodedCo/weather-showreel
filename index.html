@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather</title>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+  <style type="text/css">
+
+    svg {
+      font-family: "Helvetica Neue", Helvetica;
+      overflow:visible;
+    }
+
+    .line {
+      fill: none;
+      stroke: #000;
+      stroke-width: 2px;
+    }
+
+    #visContainer{
+      width:1100px; 
+      height:500px; 
+      overflow:visible;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div id="visContainer"></div>
+
+<script type="text/javascript">
+  cities = ["Athens","Sydney","Copenhagen","Berlin","London","Oslo","New York","New Delhi","Boston"]
+</script>  
+
+<script type="text/javascript" src="getWeatherData.js"></script>
+<!-- <script type="text/javascript" src="call_and_draw_weather.js"></script> -->
+
+
+</body>
+</html>

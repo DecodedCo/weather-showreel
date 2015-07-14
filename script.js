@@ -48,7 +48,7 @@ function getHistoricalTemp(city,id){
 
 //for each city, get the city id. This then calls the historical temps and draws the viz
 for (var jj=0; jj<cities.length; jj++){
-	getIds(cities[jj]);
+	getIds(cities[jj]); 
 }
 
 /*

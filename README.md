@@ -14,4 +14,4 @@ This library will allow you to visualise historical city weather temperatures, u
  (a webserver has already been set up for the visualisation to display properly)
 4. That's it! 
 
-If you would like to change the cities that are being displayed, edit line 37 in the html code.
+If you would like to change the cities that are being displayed, edit line 47 in the html code.

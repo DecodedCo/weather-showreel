@@ -1,5 +1,3 @@
-# weather-showreel
-
 Weather ShowReel Library
 ===========
 
@@ -9,10 +7,10 @@ This library will allow you to visualise historical city weather temperatures, u
 
 ### Instructions 
 
-. Copy the html code in sublime text
-. From your browser go to: localhost:8000
-.. (a webserver has already been set up for the visualisation to display properly)
-. That's it! 
+* Copy the html code in sublime text
+* From your browser go to: localhost:8000
+** (a webserver has already been set up for the visualisation to display properly)
+* That's it! 
 
 If you would like to change the cities that are being displayed, edit line X in the html code.
 
